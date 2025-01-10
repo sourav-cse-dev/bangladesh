@@ -68,7 +68,7 @@ header {
   gap: 64px;
 }
 
-.banner-content-left {
+.banner-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -125,3 +125,72 @@ header img {
   height: 400px;
 }
 /* banner section styles ends here */
+
+/* pillars section styles starts here */
+.pillars-container {
+  width: 1280px;
+  height: 324px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.pillars-container h2 {
+  width: 1280px;
+  height: 48px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.pillars-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.card-1 {
+  width: 302px;
+  height: 244px;
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-1 span {
+  width: 254px;
+  height: 24px;
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.card-1 p {
+  width: 254px;
+  height: 72px;
+  margin-top: 10px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* pillars section styles starts here */
