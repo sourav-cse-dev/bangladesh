@@ -651,6 +651,7 @@ header img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
   padding: 0px;
 }
 
@@ -710,6 +711,7 @@ header img {
   width: 1032px;
   height: 64px;
   margin-top: 32px;
+  margin-right: 28px;
   padding: 20px 40px;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 8px;
@@ -729,6 +731,7 @@ header img {
   width: 151px;
   height: 56px;
   margin-top: 32px;
+  margin-right: 28px;
   border: 1px solid rgba(14, 14, 14, 0.1);
   border-radius: 8px;
   background: rgb(0, 106, 80);
