@@ -18,7 +18,7 @@
   - **Image**: Placed on the right to complement the content.
   - **Alignment**: Proper use of margin and padding ensures all elements align as Figma.
 
-<img src="./UI/banner.png"/>
+<img src="./assets/banner.png"/>
 
 ---
 
@@ -30,7 +30,7 @@
   - **Title and Description**: Provides clear and concise information about the card's content.
   - **Buttons**: Styled with unique colors to differentiate actions.
 
-## <img src="./UI/vision.png">
+## <img src="./assets/vision.png">
 
 ### 3. Recent News
 
@@ -42,7 +42,7 @@
     - Channel Logo and Publication Time.
     - A button at the bottom for user interaction.
 
-<img src="./UI/news.png"/>
+<img src="./assets/news.png"/>
 
 ---
 
@@ -54,7 +54,7 @@
   - **Full-Width Input**: Includes a placeholder for user input.
   - **Center-Aligned Button**: Makes the action prominent and user-friendly.
 
- <img src="./UI/donate.png"/>
+ <img src="./assets/donate.png"/>
 
 ---
 
@@ -67,7 +67,7 @@
   - **Center-Aligned Title and Subtitle**: Encourages users to subscribe.
   - **Form**: Includes an input field and a button styled as per the design.
 
- <img src="./UI/newsletter.png"/>
+ <img src="./assets/newsletter.png"/>
 
 ---
 
@@ -85,7 +85,7 @@
 - A dedicated section to display an inspirational quote with:
   - **Icon Background**: Styled as per the design for visual appeal.
 
- <img src="./UI/quotes.png"/>
+ <img src="./assets/quotes.png"/>
 
 ---
 
