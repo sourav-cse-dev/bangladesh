@@ -523,3 +523,121 @@ header img {
   cursor: pointer;
 }
 /* opinion section ends here */
+
+/* news section styles starts here */
+.news-container {
+  border: 2px solid red;
+  width: 1280px;
+  height: 1406px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 0px;
+}
+
+.news-container h5 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-container p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-card {
+  width: 1280px;
+  height: 402px;
+  padding: 48px;
+  border-radius: 24px;
+  background: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.news-card img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.news-card-content {
+  width: 744px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.news-card-content h6 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-card-content img {
+  width: 134px;
+  height: 40px;
+  margin-top: 12px;
+}
+
+.news-card-content time {
+  margin-top: 12px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-card-content p {
+  margin-top: 12px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-card-content button {
+  margin-top: 32px;
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-card-content button:hover {
+  background-color: #81c784;
+  cursor: pointer;
+}
+/* news section styles ends here */
