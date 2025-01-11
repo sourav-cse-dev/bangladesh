@@ -155,7 +155,7 @@ header img {
   gap: 24px;
 }
 
-.card-1 {
+.pillars-card {
   width: 302px;
   height: 244px;
   padding: 24px;
@@ -167,7 +167,7 @@ header img {
   align-items: flex-start;
 }
 
-.card-1 span {
+.pillars-card span {
   width: 254px;
   height: 24px;
   margin-top: 24px;
@@ -179,7 +179,7 @@ header img {
   text-align: left;
 }
 
-.card-1 p {
+.pillars-card p {
   width: 254px;
   height: 72px;
   margin-top: 10px;
@@ -191,3 +191,233 @@ header img {
   text-align: left;
 }
 /* pillars section styles starts here */
+
+/* vision section styles starts here */
+.vision-container {
+  width: 1280px;
+  height: 765px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 0px;
+  text-align: center;
+}
+
+.vision-title {
+  width: 1280px;
+  height: 48px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-description {
+  width: 1280px;
+  height: 48px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.vision-card-1 {
+  width: 410.67px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #d5e1f5;
+  border: none;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vision-card-1 button {
+  margin-top: 72px;
+  background-color: #5490f5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-card-1 button:hover {
+  background-color: #2f64b6;
+  cursor: pointer;
+}
+
+.vision-card-2 {
+  width: 410.67px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #c6e4d6;
+  border: none;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vision-card-2 button {
+  margin-top: 72px;
+  background-color: #09a15c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-card-2 button:hover {
+  background-color: #056b3c;
+  cursor: pointer;
+}
+
+.vision-card-3 {
+  width: 410.67px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #f7ebcf;
+  border: none;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vision-card-3 button {
+  margin-top: 72px;
+  background-color: #ffc23a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-card-3 button:hover {
+  background-color: #d99a21;
+  cursor: pointer;
+}
+
+.vision-card-1 img,
+.vision-card-2 img,
+.vision-card-3 img {
+  width: 50px;
+  height: 53px;
+}
+
+.vision-card-1 span,
+.vision-card-2 span,
+.vision-card-3 span {
+  width: 346.67px;
+  height: 24px;
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-card-1 p,
+.vision-card-2 p,
+.vision-card-3 p {
+  width: 346.67px;
+  height: 24px;
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-quote {
+  width: 1280px;
+  height: 256px;
+  padding: 48px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.vision-quote-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.vision-quote-content p {
+  margin-bottom: 30px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-quote-content cite {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-quote-content small {
+  margin-top: 4px;
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* vision section styles ends here */
