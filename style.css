@@ -643,7 +643,6 @@ header img {
 
 /* donation section styles starts here */
 .donation-container {
-  border: 1px solid red;
   width: 1280px;
   height: 464px;
   margin: 0 auto;
@@ -746,3 +745,97 @@ header img {
   cursor: pointer;
 }
 /* donation section styles ends here */
+
+/* subscribe section styles strats here */
+.subscribe-container {
+  width: 1280px;
+  height: 395px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.subscribe-container h6 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subscribe-container p {
+  width: 622px;
+  height: 48px;
+  margin-top: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subscribe-content {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+
+.subscribe-content input {
+  width: 600px;
+  height: 55px;
+  padding: 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  background: white;
+  border: none;
+
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.subscribe-content button {
+  width: 150px;
+  height: 56px;
+  padding: 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  background: rgb(0, 106, 80);
+
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.subscribe-content button:hover {
+  background-color: #81c784;
+  cursor: pointer;
+}
+
+.subscribe-container span {
+  width: 622px;
+  height: 19px;
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* subscribe section styles en ds here */
