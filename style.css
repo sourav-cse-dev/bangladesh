@@ -526,7 +526,6 @@ header img {
 
 /* news section styles starts here */
 .news-container {
-  border: 2px solid red;
   width: 1280px;
   height: 1406px;
   margin: 0 auto;
@@ -641,3 +640,109 @@ header img {
   cursor: pointer;
 }
 /* news section styles ends here */
+
+/* donation section styles starts here */
+.donation-container {
+  border: 1px solid red;
+  width: 1280px;
+  height: 464px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.donation-container h6 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.donation-container p {
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.donation-content {
+  width: 1071px;
+  height: 128px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.donation-card {
+  width: 240px;
+  height: 128px;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background: white;
+
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.donation-card:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
+.donation-container input {
+  width: 1032px;
+  height: 64px;
+  margin-top: 32px;
+  padding: 20px 40px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+  background: white;
+  border: none;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.donation-container button {
+  width: 151px;
+  height: 56px;
+  margin-top: 32px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.donation-container button:hover {
+  background-color: #81c784;
+  cursor: pointer;
+}
+/* donation section styles ends here */
