@@ -4,7 +4,7 @@ This project is a simple static website exploring some basic information about B
 
 ## Project Overview
 
-The website provides a brief overview of Bangladesh, potentially including information like its geography, culture, or history (depending on the content you've added).
+The website provides a brief overview of Bangladesh, potentially including information like its geography, culture, or history.
 
 ## Technologies Used
 
@@ -21,13 +21,15 @@ This project utilizes the following technologies:
 This project provided valuable learning opportunities in:
 
 - **Basic Web Development:** Reinforced my understanding of HTML, CSS.
-- **Version Control (Git):** Utilized Git for version control and collaboration (if applicable).
+- **Version Control (Git):** Utilized Git for version control.
 - **Deployment (GitHub Pages):** Learned how to deploy a website using GitHub Pages.
 
 Some challenges I encountered (and how I overcame them, or plan to overcome them):
 
-- _(Example 1: "Getting the layout to work perfectly.")_ - _("I researched and implemented Flexbox, which helped me create a more flexible and responsive layout.")_
-- _(Example 2: "Choosing appropriate color schemes and fonts.")_ - _("I experimented with different combinations and used online tools for generating color palettes.")_
+- _Getting the layout to work perfectly._
+- _I researched and implemented Flexbox, which helped me create a more flexible and responsive layout._
+- _Choosing appropriate color schemes and fonts._
+- _I experimented with different combinations and used online tools for generating color palettes._
 
 ## Future Improvements
 
